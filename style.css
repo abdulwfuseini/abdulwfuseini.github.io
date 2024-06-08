@@ -114,9 +114,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Shadow effect */
-  width: 75%; /* Adjust the width as needed */
-  padding: 80px; /* Add padding inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); 
+  width: 75%; 
+  padding: 80px; 
   margin-bottom: 0px
 }
 
@@ -144,11 +144,11 @@
 
 .container-left-title hr {
   border: none;
-  width: 38.5%; /* Adjust the width to fill the container */
+  width: 42.5%; /* Adjust the width to fill the container */
   height: 4px;
   background-color: #a363aa;
   border-radius: 10px;
-  margin: 0; /* Reset margin */
+  margin: 0;
   margin-bottom: 20px;
 }
 
@@ -254,11 +254,11 @@
 
 
 .about-logo {
-  width: 50px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Add space between logo and text */
-  display: inline-block; /* Display as inline element */
-  vertical-align: middle; /* Align vertically to middle */
+  width: 50px; 
+  height: auto; 
+  margin-right: 10px;
+  display: inline-block; 
+  vertical-align: middle; 
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
@@ -430,7 +430,6 @@ h3 {
 /* Adjust height for smaller screens */
 .full-height {
   height: 95vh;
-  position: fixed;
   width: 100%;
 
 }
@@ -482,8 +481,6 @@ h3 {
 }
 
 .waves-effect.waves-blue .waves-ripple {
-  /* The alpha value allows the text and background color
-   of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.2);
 }
 

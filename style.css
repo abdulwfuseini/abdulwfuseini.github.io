@@ -171,7 +171,7 @@
 }
 
 .personal-message {
-  width: 30%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -218,7 +218,7 @@
 
 /* Style for textarea within message_submit section */
 .message-submit textarea {
-  width: calc(100% - 40px); 
+  width: calc(100% - 1px); 
   height: 150px;
   border: 2px solid transparent; /
   outline: none;

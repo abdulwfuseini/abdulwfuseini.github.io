@@ -430,7 +430,6 @@ h3 {
 /* Adjust height for smaller screens */
 .full-height {
   height: 95vh;
-  width: 100%;
 
 }
 /* Adjust height for larger screens */

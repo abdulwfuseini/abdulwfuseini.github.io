@@ -856,3 +856,23 @@ small {
 
   
 }
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 90%; /* Adjust width for smaller screens */
+    padding: 40px; /* Reduce padding for smaller screens */
+  }
+
+  .form-sections {
+    flex-direction: column;
+    gap: 20px; /* Reduce gap for smaller screens */
+  }
+
+  .personal-message, .message-submit {
+    width: 100%; /* Full width for smaller screens */
+  }
+
+  .message-submit button[type="submit"] {
+    width: 100%; /* Full width for the button */
+  }
+}

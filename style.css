@@ -92,18 +92,8 @@
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
-  color: white;
-  background-color: #00796b;
-} */
 
 /* CONTACT FORM */
-/* CONTACT FORM */
-/* CONTACT FORM */
-/* CONTACT FORM */
-
-/* Style for the parent section specific to #contact */
-/* Style for the parent section specific to #contact */
 #contact {
   background-color: #f5f5f5; /* Adjust background color as needed */
 
@@ -128,6 +118,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Shadow effect */
   width: 75%; /* Adjust the width as needed */
   padding: 80px; /* Add padding inside the container */
+  margin-bottom: 40px
 }
 
 

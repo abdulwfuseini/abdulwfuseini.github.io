@@ -435,7 +435,7 @@ h3 {
 /* Adjust height for larger screens */
 @media (min-width: 768px) {
   .full-height {
-    height: 70vh;
+    height: 65vh;
   }
 }
 

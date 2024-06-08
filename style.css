@@ -430,6 +430,11 @@ h3 {
 /* Adjust height for smaller screens */
 .full-height {
   height: 95vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: auto;
 }
 /* Adjust height for larger screens */
 @media (min-width: 768px) {

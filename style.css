@@ -196,6 +196,10 @@
   color: #333;
 }
 
+.contact-inputs[name="subject"] {
+  border-radius: 0 0; 
+}
+
 
 .contact-inputs[name="email"] {
   border-radius: 0 0; /* Rounded corners for top of email input */
@@ -203,7 +207,7 @@
 
 /* Style for name input */
 .contact-inputs[name="name"] {
-  border-radius: 0 0; /* Rounded corners for bottom of name input */
+  border-radius: 0 0;
 }
 
 /* Style for textarea within message_submit section */
@@ -543,6 +547,39 @@ h3 {
   font-size: 85%;
   color: #666;
 }
+
+
+
+/* Ensure that the card-reveal is hidden by default */
+#projects .card-reveal {
+  display: none;
+}
+
+/* Show the card-reveal when the card is hovered */
+#projects .card:hover .card-reveal {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgb(227, 248, 232); /* or another background color */
+  z-index: 1;
+  padding: 20px; /* adjust padding as needed */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* optional for a better visual effect */
+}
+
+/* Ensure the card content is hidden when the card-reveal is displayed */
+#projects .card:hover .card-content,
+#projects .card:hover .card-image {
+  display: none;
+}
+
+
+
+
+
+
 
 .card ul {
   margin-bottom: 0;
